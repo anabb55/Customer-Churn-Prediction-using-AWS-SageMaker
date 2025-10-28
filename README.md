@@ -92,6 +92,12 @@ I started by performing a detailed Exploratory Data Analysis (EDA) to understand
    | **XGBoost**             | **0.81** | **0.87** |
    | **Logistic Regression** |  0.75    | 0.84     |
 
+   ## Conclusion
+
+   The XGBoost model achieved slightly better results than Logistic Regression, mainly due to its ability to capture non-linear relationships and feature interactions.
+
+   Working with AWS SageMaker and Amazon S3 showed me how essential cloud technologies are for Data Science and Data Engineering today - enabling scalable data processing, model training, and deployment that would be impossible to achieve locally.
+
 
 
 
