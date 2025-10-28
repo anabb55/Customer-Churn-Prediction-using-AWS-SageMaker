@@ -70,7 +70,7 @@ I started by performing a detailed Exploratory Data Analysis (EDA) to understand
 - Split data into Train (80%), Validation (10%), and Test (10%) sets
 - Creating separate dataset versions for Logistic Regression and XGBoost models
 
-  ## Model Training and Comparison
+## Model Training and Comparison
 
   After preprocessing, all processed datasets were uploaded to **Amazon S3**, where they served as inputs for model training and evaluation.
 
@@ -79,10 +79,18 @@ I started by performing a detailed Exploratory Data Analysis (EDA) to understand
   - Configured the training job with defined S3 input paths, hyperparameters, and compute instance (ml.m5.large).
   - After training, the model was deployed as a SageMaker endpoint, enabling batch predictions.
  
+ 
   ### Logistic Regression – Trained Locally
   - Trained locally using scikit-learn on the same preprocessed data.
   - The model served as a baseline for performance comparison with the cloud-trained XGBoost model.
   - Evaluated on the same test dataset to ensure fairness.
+  
+  ### Results Comparison
+
+   | Model                   | Accuracy | AUC      |
+   | ----------------------- | -------- | -------- |
+   | **XGBoost**             | **0.81** | **0.87** |
+   | **Logistic Regression** |  0.75    | 0.84     |
 
 
 
