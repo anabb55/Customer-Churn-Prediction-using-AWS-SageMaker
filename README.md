@@ -62,6 +62,14 @@ I started by performing a detailed Exploratory Data Analysis (EDA) to understand
 
 ### Data Preprocessing
 
+- Removed column customerID
+- Converted TotalCharges to numeric and filled missing values with 0
+- Encoded binary columns (Yes/No, Male/Female) as 0/1
+- Applied one-hot encoding to categorical features
+- Scaled numerical columns using StandardScaler
+- Split data into Train (80%), Validation (10%), and Test (10%) sets
+- Creating separate dataset versions for Logistic Regression and XGBoost models
+
 
 
 
