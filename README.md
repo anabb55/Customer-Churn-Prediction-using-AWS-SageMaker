@@ -2,8 +2,12 @@
 
 ## Project Overview
 
-The main idea behind this project was to explore the capabilities of **AWS Cloud** for developing and deploying a machine learning model. 
-The goal was to predict customer churn (whether a customer will leave a service) and to compare a cloud-trained **XGBoost model** with a locally trained **Logistic Regression model** using the same dataset.
+The purpose of this project was to explore how **AWS Cloud** can be used to design, train, and deploy a complete machine learning workflow.
+Using Amazon S3 for storage and **AWS SageMaker** for scalable training, I built and compared two models:
+- a cloud-trained XGBoost, and
+- a locally trained Logistic Regression as a reference baseline.
+
+This project allowed me to gain experience with the complete lifecycle of a cloud-based ML pipeline.
 
 ## Data Preprocessing
 
