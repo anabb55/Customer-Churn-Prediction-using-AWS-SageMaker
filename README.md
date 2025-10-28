@@ -3,7 +3,7 @@
 ## Project Overview
 
 The purpose of this project was to explore how **AWS Cloud** can be used to design, train, and deploy a complete machine learning workflow.
-Using Amazon S3 for storage and **AWS SageMaker** for scalable training, I built and compared two models:
+Using **Amazon S3** for storage and **AWS SageMaker** for scalable training, I built and compared two models:
 - a cloud-trained XGBoost, and
 - a locally trained Logistic Regression as a reference baseline.
 
