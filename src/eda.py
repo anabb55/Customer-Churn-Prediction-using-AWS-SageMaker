@@ -115,6 +115,10 @@ def main():
      plt.show()
 
 
+     ##spearman correlation
+     corr_spearman = data[numerical_features].corr(method = 'spearman')
+     print(corr_spearman)
+
 
 
 if __name__ == "__main__":
